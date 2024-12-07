@@ -14,6 +14,18 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            HStack {
+                RoundedRectangle(cornerRadius: 15)
+                    .fill(Color.orange)
+                    .frame(width: 50, height: 50)
+                RoundedRectangle(cornerRadius: 15)
+                    .fill(Color.cornFlowerBlue)
+                    .frame(width: 50, height: 50)
+                RoundedRectangle(cornerRadius: 15)
+                    .fill(Color.gold)
+                    .frame(width: 50, height: 50)
+            }
         }
         .padding()
     }
