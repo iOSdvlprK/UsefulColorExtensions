@@ -10,10 +10,10 @@ import SwiftUI
 extension Color {
     static let maroon = Color(red: 128 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
     static let darkRed = Color(red: 139 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
-    static let brown = Color(red: 165 / 255.0, green: 42 / 255.0, blue: 42 / 255.0)
+    static let brown1 = Color(red: 165 / 255.0, green: 42 / 255.0, blue: 42 / 255.0)
     static let firebrick = Color(red: 178 / 255.0, green: 34 / 255.0, blue: 34 / 255.0)
     static let crimson = Color(red: 220 / 255.0, green: 20 / 255.0, blue: 60 / 255.0)
-    static let red = Color(red: 255 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
+    static let red1 = Color(red: 255 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
     static let tomato = Color(red: 255 / 255.0, green: 99 / 255.0, blue: 71 / 255.0)
     static let coral = Color(red: 255 / 255.0, green: 127 / 255.0, blue: 80 / 255.0)
     static let indianRed = Color(red: 205 / 255.0, green: 92 / 255.0, blue: 92 / 255.0)
@@ -23,7 +23,7 @@ extension Color {
     static let lightSalmon = Color(red: 255 / 255.0, green: 160 / 255.0, blue: 122 / 255.0)
     static let orangeRed = Color(red: 255 / 255.0, green: 69 / 255.0, blue: 0 / 255.0)
     static let darkOrange = Color(red: 255 / 255.0, green: 140 / 255.0, blue: 0 / 255.0)
-    static let orange = Color(red: 255 / 255.0, green: 165 / 255.0, blue: 0 / 255.0)
+    static let orange1 = Color(red: 255 / 255.0, green: 165 / 255.0, blue: 0 / 255.0)
     static let gold = Color(red: 255 / 255.0, green: 215 / 255.0, blue: 0 / 255.0)
     static let darkGoldenRod = Color(red: 184 / 255.0, green: 134 / 255.0, blue: 11 / 255.0)
     static let goldenRod = Color(red: 218 / 255.0, green: 165 / 255.0, blue: 32 / 255.0)
@@ -31,7 +31,7 @@ extension Color {
     static let darkKhaki = Color(red: 189 / 255.0, green: 183 / 255.0, blue: 107 / 255.0)
     static let khaki = Color(red: 240 / 255.0, green: 230 / 255.0, blue: 140 / 255.0)
     static let olive = Color(red: 128 / 255.0, green: 128 / 255.0, blue: 0 / 255.0)
-    static let yellow = Color(red: 255 / 255.0, green: 255 / 255.0, blue: 0 / 255.0)
+    static let yellow1 = Color(red: 255 / 255.0, green: 255 / 255.0, blue: 0 / 255.0)
     static let yellowGreen = Color(red: 154 / 255.0, green: 205 / 255.0, blue: 50 / 255.0)
     static let darkOliveGreen = Color(red: 85 / 255.0, green: 107 / 255.0, blue: 47 / 255.0)
     static let oliveDrab = Color(red: 107 / 255.0, green: 142 / 255.0, blue: 35 / 255.0)
@@ -39,7 +39,7 @@ extension Color {
     static let chartreuse = Color(red: 127 / 255.0, green: 255 / 255.0, blue: 0 / 255.0)
     static let greenYellow = Color(red: 173 / 255.0, green: 255 / 255.0, blue: 47 / 255.0)
     static let darkGreen = Color(red: 0 / 255.0, green: 100 / 255.0, blue: 0 / 255.0)
-    static let green = Color(red: 0 / 255.0, green: 128 / 255.0, blue: 0 / 255.0)
+    static let green1 = Color(red: 0 / 255.0, green: 128 / 255.0, blue: 0 / 255.0)
     static let forestGreen = Color(red: 34 / 255.0, green: 139 / 255.0, blue: 34 / 255.0)
     static let lime = Color(red: 0 / 255.0, green: 255 / 255.0, blue: 0 / 255.0)
     static let limeGreen = Color(red: 50 / 255.0, green: 205 / 255.0, blue: 50 / 255.0)
@@ -53,10 +53,10 @@ extension Color {
     static let mediumSeaGreen = Color(red: 60 / 255.0, green: 179 / 255.0, blue: 113 / 255.0)
     static let lightSeaGreen = Color(red: 32 / 255.0, green: 178 / 255.0, blue: 170 / 255.0)
     static let darkSlateGray = Color(red: 47 / 255.0, green: 79 / 255.0, blue: 79 / 255.0)
-    static let teal = Color(red: 0 / 255.0, green: 128 / 255.0, blue: 128 / 255.0)
+    static let teal1 = Color(red: 0 / 255.0, green: 128 / 255.0, blue: 128 / 255.0)
     static let darkCyan = Color(red: 0 / 255.0, green: 139 / 255.0, blue: 139 / 255.0)
     static let aqua = Color(red: 0 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
-    static let cyan = Color(red: 0 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
+    static let cyan1 = Color(red: 0 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
     static let lightCyan = Color(red: 224 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
     static let darkTurquoise = Color(red: 0 / 255.0, green: 206 / 255.0, blue: 209 / 255.0)
     static let turquoise = Color(red: 64 / 255.0, green: 224 / 255.0, blue: 208 / 255.0)
@@ -76,10 +76,10 @@ extension Color {
     static let navy = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 128 / 255.0)
     static let darkBlue = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 139 / 255.0)
     static let mediumBlue = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 205 / 255.0)
-    static let blue = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 255 / 255.0)
+    static let blue1 = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 255 / 255.0)
     static let royalBlue = Color(red: 65 / 255.0, green: 105 / 255.0, blue: 225 / 255.0)
     static let blueViolet = Color(red: 138 / 255.0, green: 43 / 255.0, blue: 226 / 255.0)
-    static let indigo = Color(red: 75 / 255.0, green: 0 / 255.0, blue: 130 / 255.0)
+    static let indigo1 = Color(red: 75 / 255.0, green: 0 / 255.0, blue: 130 / 255.0)
     static let darkSlateBlue = Color(red: 72 / 255.0, green: 61 / 255.0, blue: 139 / 255.0)
     static let slateBlue = Color(red: 106 / 255.0, green: 90 / 255.0, blue: 205 / 255.0)
     static let mediumSlateBlue = Color(red: 123 / 255.0, green: 104 / 255.0, blue: 238 / 255.0)
@@ -88,7 +88,7 @@ extension Color {
     static let darkViolet = Color(red: 148 / 255.0, green: 0 / 255.0, blue: 211 / 255.0)
     static let darkOrchid = Color(red: 153 / 255.0, green: 50 / 255.0, blue: 204 / 255.0)
     static let mediumOrchid = Color(red: 186 / 255.0, green: 85 / 255.0, blue: 211 / 255.0)
-    static let purple = Color(red: 128 / 255.0, green: 0 / 255.0, blue: 128 / 255.0)
+    static let purple1 = Color(red: 128 / 255.0, green: 0 / 255.0, blue: 128 / 255.0)
     static let thistle = Color(red: 216 / 255.0, green: 191 / 255.0, blue: 216 / 255.0)
     static let plum = Color(red: 221 / 255.0, green: 160 / 255.0, blue: 221 / 255.0)
     static let violet = Color(red: 238 / 255.0, green: 130 / 255.0, blue: 238 / 255.0)
@@ -99,7 +99,7 @@ extension Color {
     static let deepPink = Color(red: 255 / 255.0, green: 20 / 255.0, blue: 147 / 255.0)
     static let hotPink = Color(red: 255 / 255.0, green: 105 / 255.0, blue: 180 / 255.0)
     static let lightPink = Color(red: 255 / 255.0, green: 182 / 255.0, blue: 193 / 255.0)
-    static let pink = Color(red: 255 / 255.0, green: 192 / 255.0, blue: 203 / 255.0)
+    static let pink1 = Color(red: 255 / 255.0, green: 192 / 255.0, blue: 203 / 255.0)
     static let antiqueWhite = Color(red: 250 / 255.0, green: 235 / 255.0, blue: 215 / 255.0)
     static let beige = Color(red: 245 / 255.0, green: 245 / 255.0, blue: 220 / 255.0)
     static let bisque = Color(red: 255 / 255.0, green: 228 / 255.0, blue: 196 / 255.0)
@@ -138,24 +138,25 @@ extension Color {
     static let ivory = Color(red: 255 / 255.0, green: 255 / 255.0, blue: 240 / 255.0)
     static let azure = Color(red: 240 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
     static let snow = Color(red: 255 / 255.0, green: 250 / 255.0, blue: 250 / 255.0)
-    static let black = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
+    static let black1 = Color(red: 0 / 255.0, green: 0 / 255.0, blue: 0 / 255.0)
     static let dimGray = Color(red: 105 / 255.0, green: 105 / 255.0, blue: 105 / 255.0)
-    static let gray = Color(red: 128 / 255.0, green: 128 / 255.0, blue: 128 / 255.0)
+    static let gray1 = Color(red: 128 / 255.0, green: 128 / 255.0, blue: 128 / 255.0)
     static let darkGray = Color(red: 169 / 255.0, green: 169 / 255.0, blue: 169 / 255.0)
     static let silver = Color(red: 192 / 255.0, green: 192 / 255.0, blue: 192 / 255.0)
     static let lightGray = Color(red: 211 / 255.0, green: 211 / 255.0, blue: 211 / 255.0)
     static let gainsboro = Color(red: 220 / 255.0, green: 220 / 255.0, blue: 220 / 255.0)
     static let whiteSmoke = Color(red: 245 / 255.0, green: 245 / 255.0, blue: 245 / 255.0)
-    static let white = Color(red: 255 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
+    static let white1 = Color(red: 255 / 255.0, green: 255 / 255.0, blue: 255 / 255.0)
+
 }
 
 var mainColorList: [Color] = [
     .maroon,
     .darkRed,
-    .brown,
+    .brown1,
     .firebrick,
     .crimson,
-    .red,
+    .red1,
     .tomato,
     .coral,
     .indianRed,
@@ -165,7 +166,7 @@ var mainColorList: [Color] = [
     .lightSalmon,
     .orangeRed,
     .darkOrange,
-    .orange,
+    .orange1,
     .gold,
     .darkGoldenRod,
     .goldenRod,
@@ -173,7 +174,7 @@ var mainColorList: [Color] = [
     .darkKhaki,
     .khaki,
     .olive,
-    .yellow,
+    .yellow1,
     .yellowGreen,
     .darkOliveGreen,
     .oliveDrab,
@@ -181,7 +182,7 @@ var mainColorList: [Color] = [
     .chartreuse,
     .greenYellow,
     .darkGreen,
-    .green,
+    .green1,
     .forestGreen,
     .lime,
     .limeGreen,
@@ -195,10 +196,10 @@ var mainColorList: [Color] = [
     .mediumSeaGreen,
     .lightSeaGreen,
     .darkSlateGray,
-    .teal,
+    .teal1,
     .darkCyan,
     .aqua,
-    .cyan,
+    .cyan1,
     .lightCyan,
     .darkTurquoise,
     .turquoise,
@@ -218,10 +219,10 @@ var mainColorList: [Color] = [
     .navy,
     .darkBlue,
     .mediumBlue,
-    .blue,
+    .blue1,
     .royalBlue,
     .blueViolet,
-    .indigo,
+    .indigo1,
     .darkSlateBlue,
     .slateBlue,
     .mediumSlateBlue,
@@ -230,7 +231,7 @@ var mainColorList: [Color] = [
     .darkViolet,
     .darkOrchid,
     .mediumOrchid,
-    .purple,
+    .purple1,
     .thistle,
     .plum,
     .violet,
@@ -241,7 +242,7 @@ var mainColorList: [Color] = [
     .deepPink,
     .hotPink,
     .lightPink,
-    .pink,
+    .pink1,
     .antiqueWhite,
     .beige,
     .bisque,
@@ -280,13 +281,13 @@ var mainColorList: [Color] = [
     .ivory,
     .azure,
     .snow,
-    .black,
+    .black1,
     .dimGray,
-    .gray,
+    .gray1,
     .darkGray,
     .silver,
     .lightGray,
     .gainsboro,
     .whiteSmoke,
-    .white,
+    .white1
 ]

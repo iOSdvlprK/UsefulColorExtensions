@@ -17,7 +17,10 @@ struct ContentView: View {
             
             HStack {
                 RoundedRectangle(cornerRadius: 15)
-                    .fill(Color.orange)
+                    .fill(Color.red)
+                    .frame(width: 50, height: 50)
+                RoundedRectangle(cornerRadius: 15)
+                    .fill(Color.red1)
                     .frame(width: 50, height: 50)
                 RoundedRectangle(cornerRadius: 15)
                     .fill(Color.cornFlowerBlue)
