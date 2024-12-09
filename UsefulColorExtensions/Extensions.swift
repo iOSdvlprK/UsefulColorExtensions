@@ -291,3 +291,21 @@ var mainColorList: [Color] = [
     .whiteSmoke,
     .white1
 ]
+
+extension Color {
+    static var random: Color {
+        return mainColorList.randomElement() ?? .darkRed
+    }
+}
+
+extension Color {
+    static func randomColorsN(n: Int) -> [Color] {
+        var theRandomColors: [Color] = []
+        
+        for _ in 0..<n {
+            theRandomColors.append(Color.random)
+        }
+        
+        return theRandomColors
+    }
+}
